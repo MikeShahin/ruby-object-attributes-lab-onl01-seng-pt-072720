@@ -3,7 +3,7 @@ class Dog
    @name = name
  end
  
- def name
-   "#{@name}".strip
+ def name= (name)
+   @name
  end
 end
